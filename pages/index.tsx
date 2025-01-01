@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Button } from "@nextui-org/react";
-import { FaYoutube, FaTelegramPlane, FaGithub } from 'react-icons/fa';
+import { FaYoutube, FaTelegramPlane } from 'react-icons/fa';
 import {router} from "next/client";
 
 export default function Home() {
@@ -39,7 +39,7 @@ export default function Home() {
                         <div className="bg-[#000] rounded-3xl p-8">
                             <h3 className="text-sm font-medium text-gray-400 mb-2">БЕЗ CLIP</h3>
                             <h4 className="text-xl font-bold mb-4">Никаких искажений</h4>
-                            <p className="text-gray-400">Динамический диапазон звука не ограничен, что предотвращает "обрезание" пиков.</p>
+                            <p className="text-gray-400">Динамический диапазон звука не ограничен, что предотвращает &#34;обрезание&#34; пиков.</p>
                         </div>
                         <div className="bg-[#000] rounded-3xl p-8">
                             <h3 className="text-sm font-medium text-gray-400 mb-2">ЦЕНА = КАЧЕСТВО</h3>
