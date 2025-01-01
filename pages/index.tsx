@@ -23,7 +23,7 @@ export default function Home() {
                     <span className="text-white max-w-[75vh] text-center">
                         Источник эксклюзивных Low Bass обработок популярных треков. Мы предлагаем высококачественные обработки с усиленными низкими частотами для настоящих ценителей глубокого баса.
                     </span>
-                    <Button color="primary" className="mt-2" onClick={() => router.push('https://low-bass.ru')}>Попробовать</Button>
+                    <Button color="primary" className="mt-2" onClick={() => router.push('https://play.low-bass.ru')}>Попробовать</Button>
                 </div>
             </section>
 
